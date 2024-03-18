@@ -1,7 +1,5 @@
 # Readme for "AsymMirai: Interpretable Breast Cancer Risk Prediction from Mammograms"
 
-## NOTE: This code is intended for review purposes only. The codebase will be released to the public upon publication, but this version is not intended for access or use outside of peer review.
-
 # Introduction
 This repository was used to develop AsymMirai.
 The codebase itself is a fork of the MIT-licensed Mirai codebase (https://github.com/yala/Mirai).
