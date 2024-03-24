@@ -19,4 +19,4 @@ The jupyter notebook `asymmetry_model/run_train.ipynb` provides an example of th
 The jupyter notebook `asymmetry_model/run_eval.ipynb` provides an example of the code used to evaluate a trained AsymMirai. This code runs AsymMirai over each exam in the indicated CSV file, and records the risk score and prediction window location for each sample.
 
 # Analyzing AsymMirai
-The jupyter notebook `asymmetry_model/run_train.ipynb` provides the code used to analyze AsymMirai, producing ROC curves.
+The jupyter notebook `additional_asymmirai_experiments.ipynb` provides the code used to analyze AsymMirai, producing ROC curves.
