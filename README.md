@@ -16,7 +16,7 @@ This implementation assumes there exists a CSV file of the form shown in `exampl
 The jupyter notebook `asymmetry_model/run_train.ipynb` provides an example of the call to train AsymMirai.
 
 # Evaluating AsymMirai
-The jupyter notebook `asymmetry_model/run_train.ipynb` provides an example of the code used to evaluate a trained AsymMirai. This code runs AsymMirai over each exam in the indicated CSV file, and records the risk score and prediction window location for each sample.
+The jupyter notebook `asymmetry_model/run_eval.ipynb` provides an example of the code used to evaluate a trained AsymMirai. This code runs AsymMirai over each exam in the indicated CSV file, and records the risk score and prediction window location for each sample.
 
 # Analyzing AsymMirai
 The jupyter notebook `asymmetry_model/run_train.ipynb` provides the code used to analyze AsymMirai, producing ROC curves.
