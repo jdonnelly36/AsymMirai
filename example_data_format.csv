@@ -1,0 +1,5 @@
+exam_id,patient_id,laterality,view,file_path,years_to_cancer,years_to_last_followup,desc,spot_mag,matched_image
+000000000000,000000000,L,CC,/path/to/img_1.png,100.0,4.035616438356165,Screening Bilateral,,
+000000000000,000000000,L,MLO,/path/to/img_2.png,100.0,4.035616438356165,Screening Bilateral,,
+000000000000,000000000,R,CC,/path/to/img_3.png,100.0,4.035616438356165,Screening Bilateral,,
+000000000000,000000000,R,MLO,/path/to/img_4.png,100.0,4.035616438356165,Screening Bilateral,,
