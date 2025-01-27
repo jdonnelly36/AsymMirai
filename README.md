@@ -16,7 +16,7 @@ This implementation assumes there exists a CSV file of the form shown in `exampl
 The jupyter notebook `asymmetry_model/run_train.ipynb` provides an example of the call to train AsymMirai. In order to train AsymMirai, you will need to download the publicly trained weights from Mirai's backbone and place them in a directory named `snapshots` in the root directory for this repository. These weights are available [here](https://duke.box.com/s/g21ak9kfneudotokp9nmlp07r1bsdki7).
 
 # Evaluating AsymMirai
-The jupyter notebook `asymmetry_model/run_eval.ipynb` provides an example of the code used to evaluate a trained AsymMirai. This code runs AsymMirai over each exam in the indicated CSV file, and records the risk score and prediction window location for each sample.
+The jupyter notebook `asymmetry_model/run_eval.ipynb` provides an example of the code used to evaluate a trained AsymMirai. This code runs AsymMirai over each exam in the indicated CSV file, and records the risk score and prediction window location for each sample. Our trained AsymMirai weights are available upon request.
 
 # Analyzing AsymMirai
 The jupyter notebook `additional_asymmirai_experiments.ipynb` provides the code used to analyze AsymMirai, producing ROC curves.
