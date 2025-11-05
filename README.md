@@ -21,3 +21,6 @@ The jupyter notebook `asymmetry_model/run_eval.ipynb` provides an example of the
 # Analyzing AsymMirai
 The jupyter notebook `additional_asymmirai_experiments.ipynb` provides the code used to analyze AsymMirai, producing ROC curves.
 Note: The values for "percent window shift" computed in this notebook previously had a scaling error. Each window shift percent reported in the paper should be scaled down by a factor of 5/7, meaning the AUC reported at 50% window shift actually corresponds to 36% window shift. No other values -- e.g., the AUC when a given number of patients are included -- are effected.
+
+# Deploying AsymMirai
+AsymMirai is open to access and use. If you use this model, please attribute credit to this group. Additionally, we like to hear about this model's use -- if you have successfully used AsymMirai, feel free to reach out with updates on your progress. We are especially interested in quantitative metrics around AsymMirai's uptake.
