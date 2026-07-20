@@ -345,7 +345,7 @@ def resize_and_normalize(img, use_crop=False):
             img = crop(img)
         img = img.expand(1, 3, *img.shape)\
                         .type(torch.FloatTensor)
-        img_resized = F.upsample(img, size=(target_size[0], target_size[1]), mode='bilinear')
+        img_resized = F.upsample(img, size=(target_size[1], target_size[0]), mode='bilinear')
     #img_resized = img
 
     if dummy_batch_dim:
